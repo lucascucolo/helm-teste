@@ -1,0 +1,177 @@
+apiVersion: v1
+entries:
+  prometheus-couchdb-exporter:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-12-23T02:53:45.344202526Z"
+    description: A Helm chart to export the metrics from couchdb in Prometheus format.
+    digest: fb7bc2d0eccdaff19ccbc168644b284c11c4b7b7ce07e084464db1bec13aaab5
+    home: https://github.com/gesellix/couchdb-prometheus-exporter
+    keywords:
+    - couchdb-exporter
+    maintainers:
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    name: prometheus-couchdb-exporter
+    sources:
+    - https://github.com/gesellix/couchdb-prometheus-exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-couchdb-exporter-0.2.1/prometheus-couchdb-exporter-0.2.1.tgz
+    version: 0.2.1
+  prometheus-druid-exporter:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.11.0
+    created: "2022-12-23T02:53:45.458488829Z"
+    description: Druid exporter to monitor druid metrics with Prometheus
+    digest: 42c9a0d0abf52e3606faf6e90718474a3c46d4fa252e9fa6ad8754b6b52a1ea4
+    home: https://github.com/opstree/druid-exporter
+    icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
+    keywords:
+    - kubernetes
+    - apache
+    - druid
+    - exporter
+    - prometheus
+    - grafana
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+    - email: sandeep@opstree.com
+      name: sandy724
+    name: prometheus-druid-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+    - https://github.com/opstree/druid-exporter
+    type: application
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-druid-exporter-1.0.0/prometheus-druid-exporter-1.0.0.tgz
+    version: 1.0.0
+  prometheus-elasticsearch-exporter:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2022-12-23T02:53:45.574549758Z"
+    description: Elasticsearch stats exporter for Prometheus
+    digest: f96d214732bc71e7334c7c26b98cd7feb1e20ea4b75776a57fe338482a85f22c
+    home: https://github.com/prometheus-community/elasticsearch_exporter
+    keywords:
+    - metrics
+    - elasticsearch
+    - monitoring
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: sven.mueller@commercetools.com
+      name: svenmueller
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: prometheus-elasticsearch-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-elasticsearch-exporter-5.0.0/prometheus-elasticsearch-exporter-5.0.0.tgz
+    version: 5.0.0
+  prometheus-fastly-exporter:
+  - apiVersion: v2
+    appVersion: 7.2.4
+    created: "2022-12-23T02:53:45.685974721Z"
+    description: A Helm chart for the Prometheus Fastly Exporter
+    digest: 950653d9a999e8c12df2bc6ad0a607fe54ac836f86d307ee387e595aa5dee82c
+    home: https://github.com/fastly/fastly-exporter
+    keywords:
+    - metrics
+    - fastly
+    - monitoring
+    maintainers:
+    - email: arslanbekov@gmail.com
+      name: arslanbekov
+    name: prometheus-fastly-exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-fastly-exporter-0.1.1/prometheus-fastly-exporter-0.1.1.tgz
+    version: 0.1.1
+  prometheus-json-exporter:
+  - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2022-12-23T02:53:45.794481643Z"
+    description: Install prometheus-json-exporter
+    digest: dbb8ceeb170604f731fbb4330e6f106bd92ec6653ed30e7afd5ba2233e788330
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: schmiddim@gmx.at
+      name: schmiddim
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-json-exporter
+    type: application
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-json-exporter-0.6.1/prometheus-json-exporter-0.6.1.tgz
+    version: 0.6.1
+  prometheus-mongodb-exporter:
+  - apiVersion: v2
+    appVersion: 0.31.0
+    created: "2022-12-23T02:53:45.920241108Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: 768f38b242af24e8b35d39fcc65ac534653c39b7e5bfd43a8b58e49ca5ad8913
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-mongodb-exporter-3.1.2/prometheus-mongodb-exporter-3.1.2.tgz
+    version: 3.1.2
+  prometheus-mysql-exporter:
+  - apiVersion: v1
+    appVersion: v0.14.0
+    created: "2022-12-23T02:53:46.050779039Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: f52bdf2f4e9ba73be93d202ba1ff9d5f66972008e7a30cd1ce5edccaa9b8385d
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-mysql-exporter-1.11.1/prometheus-mysql-exporter-1.11.1.tgz
+    version: 1.11.1
+  prometheus-nats-exporter:
+  - apiVersion: v1
+    appVersion: 0.10.1
+    created: "2022-12-23T02:53:46.175835194Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: a8512109281d9007f5c2e3db0c5b52da3abecb297c0f642d19139b84dee458be
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/lucascucolo/helm-teste/releases/download/prometheus-nats-exporter-2.10.1/prometheus-nats-exporter-2.10.1.tgz
+    version: 2.10.1
+generated: "2022-12-23T02:53:45.193347509Z"
